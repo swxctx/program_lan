@@ -9,6 +9,7 @@ from gensim.models.doc2vec import Doc2Vec, LabeledSentence
 
 TaggededDocument = gensim.models.doc2vec.TaggedDocument
 
+
 def get_datasest():
     with open("news_title_cut.txt", 'r') as cf:
         docs = cf.readlines()
